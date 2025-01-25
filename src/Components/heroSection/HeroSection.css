@@ -1,0 +1,25 @@
+.hero-section {
+  @apply bg-cover bg-center h-screen w-screen flex items-center justify-between;
+}
+
+.hero-content {
+  @apply text-right mt-20 pr-10; /* Increase margin-top and add padding-right */
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #02F7FF, #33ADEC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-size: 2.5rem; /* Adjust the font size to be larger */
+}
+
+.text-white {
+  font-size: 1rem; /* Adjust the font size to be similar to a span */
+}
+
+.bike-image img {
+  max-width: 100%;
+  height: auto;
+}
