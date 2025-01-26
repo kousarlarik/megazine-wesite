@@ -1,5 +1,5 @@
 import React from "react"
-import bikeImage from "../../asest/BIke Evolution-27 1.png" // Ensure this path is correct
+import bikeImage from "../../asest/BIke-Evolution-271.png" // Ensure this path is correct
 
 const BikeFeatureSection = () => {
   return (
@@ -18,7 +18,7 @@ const BikeFeatureSection = () => {
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
       {/* Feature List */}
-      <div className="absolute right-10 bottom-10 bg-black bg-opacity-80 text-white p-6 rounded-lg space-y-4 shadow-lg z-10">
+      <div className="absolute right-10 bottom-10 bg-black bg-opacity-50 text-white p-6 rounded-lg space-y-4 shadow-lg z-10">
         <FeatureItem icon="⏳" text="8+ Hours Runtime" />
         <FeatureItem icon="💧" text="Water Proof" />
         <FeatureItem icon="🛡️" text="Enhanced Safety" />
