@@ -31,7 +31,7 @@ const HeroSection = () => {
           Revolutionize night cycling with
         </Typography>
 
-        {/* Image below the heading */}
+        {/* Image*/}
         <img
           width={250}
           className="img-fluid d-block" 

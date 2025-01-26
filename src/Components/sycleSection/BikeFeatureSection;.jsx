@@ -1,6 +1,5 @@
 import React from "react"
-import bikeImage from "../../asest/BIke-Evolution-271.png" // Ensure this path is correct
-
+import bikeImage from "../../asest/BIke-Evolution-271.png" 
 const BikeFeatureSection = () => {
   return (
     <section className="relative w-full h-screen">
@@ -14,7 +13,7 @@ const BikeFeatureSection = () => {
         }}
       ></div>
 
-      {/* Overlay for Text */}
+      {/*Text */}
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
       {/* Feature List */}
@@ -28,7 +27,7 @@ const BikeFeatureSection = () => {
   )
 }
 
-// Reusable Component for Feature Items
+
 const FeatureItem = ({ icon, text }) => (
   <div className="flex items-center space-x-3">
     <span className="text-blue-500 text-xl" aria-hidden="true">

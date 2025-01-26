@@ -1,6 +1,5 @@
 import React from 'react';
-import rightImage from '../../asest/Mask group.png'; // Ensure this path is correct
-
+import rightImage from '../../asest/Mask group.png'; 
 const SafetyAndStyleSection = () => {
   return (
     <section className="flex flex-col md:flex-row items-center justify-between bg-black text-white px-6 md:px-16 py-10 md:py-16">

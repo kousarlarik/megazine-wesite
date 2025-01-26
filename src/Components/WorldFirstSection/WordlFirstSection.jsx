@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import BGImg from "../../asest/BIke Evolution-27 1.jpg";
 import BGimg1 from "../../asest/Section 5.png";
 import personImg from "../../asest/2 1.png";
-import { useForm } from "react-hook-form"; // Ensure this import is correct
+import { useForm } from "react-hook-form";
 import { Box, Button, Modal, Typography, Container } from "@mui/material";
 import logo from "../../asest/Group 1.png";
 
