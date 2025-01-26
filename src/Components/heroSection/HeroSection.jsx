@@ -17,7 +17,7 @@ const HeroSection = () => {
         paddingRight: '20px', 
       }}
     >
-      <Box className="container" style={{ marginTop: '-70px' }}> 
+      <Box className="container" style={{ marginTop: '-80px' }}> 
         {/* Main Heading */}
         <Typography
           variant="span"
